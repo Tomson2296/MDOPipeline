@@ -1,0 +1,5 @@
+FROM bldr
+
+WORKDIR squirrelly
+
+RUN npm run test  
